@@ -35,3 +35,17 @@ button{
 .banner-info p{
     font-size: 22px;
 }
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-info{
+    width: 400px;
+    
+}
+.about-info ul li{
+    text-decoration: none;
+}
