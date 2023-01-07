@@ -3,10 +3,35 @@
     margin: 0px;
     padding: 0px;
 }
+
+button{
+    padding: 7px 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
 .banner{
     background-image: url(./images/banner/banner2.png);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     height: 700px;
+}
+.banner-info{
+    width: 700px;
+    float: right;
+    margin-top: 300px;
+    text-align: right;
+    padding-right: 35px;
+    margin-right: 20px;
+
+}
+.banner-info h1{
+    font-size: 42px;
+    font-weight: 900;
+    
+}
+.banner-info p{
+    font-size: 22px;
 }
