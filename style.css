@@ -49,3 +49,37 @@ button{
 .about-info ul li{
     text-decoration: none;
 }
+
+
+.my-plan{
+   margin-top: 30px;
+   padding-top: 30px;
+}
+.my-plan h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.plan{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.plan-details{
+    /* justify-content: center; */
+}
+
+/* ======================================== */
+.contact{
+    background-image: linear-gradient(to left,  rgba(255,0,0,0), rgba(255,0,0,0.3)), url(./images/watch.png);
+    
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 20px 50px;
+    padding: 30px 20;
+    
+}
